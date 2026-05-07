@@ -50,11 +50,11 @@ Each day folder contains eight files:
 
 | Day | Topic | Blog Post | Thread |
 |-----|-------|-----------|--------|
-| 1 | Agent and Tool-Use Internals | [![Blog](https://img.shields.io/badge/blog-post-orange)](https://medium.com/@samuellachisa/who-is-actually-using-the-tools) | [![Thread](https://img.shields.io/badge/medium-thread-1DA1F2)](https://medium.com/@samuellachisa/who-is-actually-using-the-tools) |
-| 2 | Agent and Tool-Use Internals | [![Blog](https://img.shields.io/badge/blog-post-orange)]() | [![Thread](https://img.shields.io/badge/medium-thread-1DA1F2)]() |
-| 3 | Training and Post-Training Mechanics | [![Blog](https://img.shields.io/badge/blog-post-orange)]() | [![Thread](https://img.shields.io/badge/medium-thread-1DA1F2)]() |
-| 4 | | [![Blog](https://img.shields.io/badge/blog-post-orange)]() | [![Thread](https://img.shields.io/badge/medium-thread-1DA1F2)]() |
-| 5 | | [![Blog](https://img.shields.io/badge/blog-post-orange)]() | [![Thread](https://img.shields.io/badge/medium-thread-1DA1F2)]() |
+| 1 | Agent and Tool-Use Internals | [Who Is Actually Using the Tools?](https://medium.com/@samuellachisa/who-is-actually-using-the-tools) | [Read on Medium](https://medium.com/@samuellachisa/who-is-actually-using-the-tools) |
+| 2 | Agent and Tool-Use Internals | [Software Architecture & LLM Pipelines](https://medium.com/@samuellachisa/software-architecture-llm-pipelines-f5316e86526f) | [Read on Medium](https://medium.com/@samuellachisa/software-architecture-llm-pipelines-f5316e86526f) |
+| 3 | Training and Post-Training Mechanics | [There Is No Magic Number](https://medium.com/@samuellachisa/there-is-no-magic-number-c61f0c67b5d6) | [Read on Medium](https://medium.com/@samuellachisa/there-is-no-magic-number-c61f0c67b5d6) |
+| 4 | | — | — |
+| 5 | | — | — |
 
 ---
 
