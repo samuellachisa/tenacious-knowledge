@@ -38,7 +38,7 @@ Each day folder contains eight files:
 | `question.md` | My final sharpened question with the named portfolio artifact it connects to |
 | `morning_call_summary.md` | What was ambiguous in the original draft and how the question was sharpened |
 | `explainer.md` | The 600–1000 word blog post I wrote for my partner's question |
-| `thread.md` | The 4–6 tweet thread compressing the explainer |
+| `thread.md` | The tweet thread or Medium post compressing the explainer |
 | `evening_call_summary.md` | Feedback exchanged and what was revised |
 | `signoff.md` | My partner's gap-closure verdict and what they now understand |
 | `grounding_commit.md` | The actual edit made to my Week 10/11 portfolio with explanation |
@@ -48,13 +48,13 @@ Each day folder contains eight files:
 
 ## Public Artifacts
 
-| Day | Topic | Blog Post | Tweet Thread |
-|-----|-------|-----------|--------------|
-| 1 | Inference-time mechanics | [![Blog](https://img.shields.io/badge/blog-post-orange)]() | [![Thread](https://img.shields.io/badge/tweet-thread-1DA1F2)]() |
-| 2 | | [![Blog](https://img.shields.io/badge/blog-post-orange)]() | [![Thread](https://img.shields.io/badge/tweet-thread-1DA1F2)]() |
-| 3 | | [![Blog](https://img.shields.io/badge/blog-post-orange)]() | [![Thread](https://img.shields.io/badge/tweet-thread-1DA1F2)]() |
-| 4 | | [![Blog](https://img.shields.io/badge/blog-post-orange)]() | [![Thread](https://img.shields.io/badge/tweet-thread-1DA1F2)]() |
-| 5 | | [![Blog](https://img.shields.io/badge/blog-post-orange)]() | [![Thread](https://img.shields.io/badge/tweet-thread-1DA1F2)]() |
+| Day | Topic | Blog Post | Thread |
+|-----|-------|-----------|--------|
+| 1 | Agent and Tool-Use Internals | [![Blog](https://img.shields.io/badge/blog-post-orange)](https://medium.com/@samuellachisa/who-is-actually-using-the-tools) | [![Thread](https://img.shields.io/badge/medium-thread-1DA1F2)](https://medium.com/@samuellachisa/who-is-actually-using-the-tools) |
+| 2 | Agent and Tool-Use Internals | [![Blog](https://img.shields.io/badge/blog-post-orange)]() | [![Thread](https://img.shields.io/badge/medium-thread-1DA1F2)]() |
+| 3 | Training and Post-Training Mechanics | [![Blog](https://img.shields.io/badge/blog-post-orange)]() | [![Thread](https://img.shields.io/badge/medium-thread-1DA1F2)]() |
+| 4 | | [![Blog](https://img.shields.io/badge/blog-post-orange)]() | [![Thread](https://img.shields.io/badge/medium-thread-1DA1F2)]() |
+| 5 | | [![Blog](https://img.shields.io/badge/blog-post-orange)]() | [![Thread](https://img.shields.io/badge/medium-thread-1DA1F2)]() |
 
 ---
 
@@ -72,13 +72,13 @@ Each day folder contains eight files:
 
 Every gap closed this week produces a concrete edit to the Week 10/11 portfolio. Links to commits below as they are made.
 
-| Day | File Edited | Commit |
-|-----|-------------|--------|
-| 1 | `ablations/ablation_results.json` | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| Day | File Edited | What Changed | Commit |
+|-----|-------------|--------------|--------|
+| 1 | `README.md`, `method.md` | Architecture description revised: orchestrator-controlled pipeline, model roles clarified as rewriter and governance gate, proactive tool-use instruction scoped to tau2-bench context only | |
+| 2 | `orchestration/handoff.py`, `method.md` | Documented intent classification gap in `route_inbound_message()`; added `classify_reply_intent` design spec to `method.md` | |
+| 3 | `methodology.md` | 82% capacity_honesty claim bounded to in-distribution template eval; paraphrase robustness check planned for v2; Pareto-optimality argument scoped to template distribution | |
+| 4 | | | |
+| 5 | | | |
 
 ---
 
