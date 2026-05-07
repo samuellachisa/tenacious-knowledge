@@ -1,0 +1,1 @@
+https://medium.com/@samuellachisa/there-is-no-magic-number-c61f0c67b5d6?postPublishedType=initial
