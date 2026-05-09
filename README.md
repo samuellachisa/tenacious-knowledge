@@ -50,10 +50,10 @@ Each day folder contains eight files:
 
 | Day | Topic | Blog Post | Thread |
 |-----|-------|-----------|--------|
-| 1 | Inference-time Mechanics | [Who Is Actually Using the Tools?](https://medium.com/@samuellachisa/who-is-actually-using-the-tools) | [Read on Medium](https://medium.com/@samuellachisa/who-is-actually-using-the-tools) |
-| 2 | Agent and Tool-Use Internals | [Software Architecture & LLM Pipelines](https://medium.com/@samuellachisa/software-architecture-llm-pipelines-f5316e86526f) | [Read on Medium](https://medium.com/@samuellachisa/software-architecture-llm-pipelines-f5316e86526f) |
+| 1 | Inference-time Mechanics | [The 73% You Cannot Explain Is the One That Matters](https://medium.com/@samuellachisa/the-73-you-cannot-explain-is-the-one-that-matters-628e8ac28d8c) | [Read on Medium](https://medium.com/@samuellachisa/the-73-you-cannot-explain-is-the-one-that-matters-628e8ac28d8c) |
+| 2 | Agent and Tool-Use Internals | [Who Is Actually Using the Tools?](https://medium.com/@samuellachisa/software-architecture-llm-pipelines-f5316e86526f) | [Read on Medium](https://medium.com/@samuellachisa/software-architecture-llm-pipelines-f5316e86526f) |
 | 3 | Training and Post-Training Mechanics | [There Is No Magic Number](https://medium.com/@samuellachisa/there-is-no-magic-number-c61f0c67b5d6) | [Read on Medium](https://medium.com/@samuellachisa/there-is-no-magic-number-c61f0c67b5d6) |
-| 4 | Evaluation and Statistics | — | — |
+| 4 | Evaluation and Statistics | [Why Pairing Is the Whole Point](https://medium.com/@samuellachisa/why-pairing-is-the-whole-point-the-mathematics-of-paired-bootstrap-in-agent-benchmarks-7c079e1572c0) | [Read on Medium](https://medium.com/@samuellachisa/why-pairing-is-the-whole-point-the-mathematics-of-paired-bootstrap-in-agent-benchmarks-7c079e1572c0) |
 
 ---
 
