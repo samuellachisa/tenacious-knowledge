@@ -59,3 +59,26 @@ This gap was the most surprising because it was not a matter of a number being b
 - Dror et al., "Deep Dominance — How to Properly Compare Deep Neural Models" (ACL 2019), arXiv:1811.01808 — why paired tests are required for benchmark comparisons in NLP and why binary detection rates violate the normality assumption
 - Koo and Mae, "A Guideline of Selecting and Reporting Intraclass Correlation Coefficients for Reliability Research," Journal of Chiropractic Medicine (2016) — ICC threshold interpretations and how to select the right ICC variant for a multi-judge scoring system
 - Zheng et al., "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena," NeurIPS 2023 — Section 4 on judge consistency across repeated runs; the empirical basis for treating LLM judge variance as a first-class measurement problem
+---
+
+## What the Week Changed About How I Work
+
+The structural shift from Week 12 is not in any single gap — it is in the habit the week installed. Before this week, I would write a number like 82% or 73% and treat it as complete. The number existed. It came from code that ran. That felt like enough. What I did not have was the reflex to ask: what is this number actually measuring, what would have to be true for it to be wrong, and can I derive it from first principles if someone pushes back in a code review?
+
+Every gap this week had the same shape underneath it: a claim that was directionally correct but could not be defended mechanically. The 73% cost delta was real — but I could not say whether it came from prefill or decode. The 82% accuracy was real — but I could not say whether it measured rule learning or vocabulary memorization. The architecture was working — but the word "agent" in the README was a category error. The paired bootstrap was implemented correctly — but I could not explain why pairing helped or what would have happened without it.
+
+None of these were lies. They were gaps between what a system does and what its author understands about why it does that. Week 12 made those gaps visible and gave me the tools to close them.
+
+The pairing structure is what made the gaps surface. It is harder to hide from a gap when you have to hand your question to another person and watch them try to answer it. If the question is vague, the explainer will be vague and the gap will not close. The morning call forcing a rewrite of the question is the mechanism — it turns a fuzzy unease into a diagnostic instrument. The gap formulation practice is transferable: open an artifact, read it as a hostile reviewer, ask where the language is papering over a mechanism you have not actually explained to yourself.
+
+The grounding commits are the other structural element worth keeping. Each gap closure produced a concrete edit to existing work. Not a note to self. Not a planned future improvement. An actual change to an artifact that now reflects what I understand rather than what I assumed. That discipline — every learning produces an edit — is what prevents Week 12 from being a reading week that leaves the portfolio unchanged.
+
+The five blog posts and threads are the public test. Writing for a reader who does not share your context forces a kind of precision that writing for yourself does not. The tweet thread especially: if you cannot compress the load-bearing mechanism into six tweets without losing the point, you do not understand it well enough yet. The Day 3 thread on paraphrase eval forced me to isolate exactly why paraphrase eval is higher signal than out-of-distribution eval, in a way the blog post alone did not require. The constraint was useful.
+
+---
+
+## Trajectory Forward
+
+The ten gaps closed this week are the first pass, not the complete audit. Each grounding commit points at a place where the original work was correct but underexplained. The next pass goes deeper: run the paraphrase eval rather than just speccing it, implement `classify_reply_intent` rather than just designing it, add Langfuse traces rather than just documenting the gap.
+
+The FDE-grade portfolio the program is designed to produce is not a collection of systems that ran. It is a collection of systems whose authors can explain what is inside them, defend the choices, and teach others why the choices were right. Week 12 is the step between shipping and understanding. The gap between what I built and what I can explain is now measurably smaller.

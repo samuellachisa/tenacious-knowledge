@@ -1,9 +1,9 @@
 # tenacious-knowledge
 
 ![Week](https://img.shields.io/badge/week-12-blue)
-![Days](https://img.shields.io/badge/days-5-brightgreen)
-![Blog Posts](https://img.shields.io/badge/blog%20posts-5-orange)
-![Tweet Threads](https://img.shields.io/badge/tweet%20threads-5-1DA1F2)
+![Days](https://img.shields.io/badge/days-4-brightgreen)
+![Blog Posts](https://img.shields.io/badge/blog%20posts-4-orange)
+![Tweet Threads](https://img.shields.io/badge/tweet%20threads-4-1DA1F2)
 ![Gaps Closed](https://img.shields.io/badge/gaps%20closed-10-purple)
 ![License](https://img.shields.io/badge/license-CC%20BY%204.0-green)
 
@@ -50,11 +50,10 @@ Each day folder contains eight files:
 
 | Day | Topic | Blog Post | Thread |
 |-----|-------|-----------|--------|
-| 1 | Agent and Tool-Use Internals | [Who Is Actually Using the Tools?](https://medium.com/@samuellachisa/who-is-actually-using-the-tools) | [Read on Medium](https://medium.com/@samuellachisa/who-is-actually-using-the-tools) |
+| 1 | Inference-time Mechanics | [Who Is Actually Using the Tools?](https://medium.com/@samuellachisa/who-is-actually-using-the-tools) | [Read on Medium](https://medium.com/@samuellachisa/who-is-actually-using-the-tools) |
 | 2 | Agent and Tool-Use Internals | [Software Architecture & LLM Pipelines](https://medium.com/@samuellachisa/software-architecture-llm-pipelines-f5316e86526f) | [Read on Medium](https://medium.com/@samuellachisa/software-architecture-llm-pipelines-f5316e86526f) |
 | 3 | Training and Post-Training Mechanics | [There Is No Magic Number](https://medium.com/@samuellachisa/there-is-no-magic-number-c61f0c67b5d6) | [Read on Medium](https://medium.com/@samuellachisa/there-is-no-magic-number-c61f0c67b5d6) |
-| 4 | | — | — |
-| 5 | | — | — |
+| 4 | Evaluation and Statistics | — | — |
 
 ---
 
@@ -74,11 +73,10 @@ Every gap closed this week produces a concrete edit to the Week 10/11 portfolio.
 
 | Day | File Edited | What Changed | Commit |
 |-----|-------------|--------------|--------|
-| 1 | `README.md`, `method.md` | Architecture description revised: orchestrator-controlled pipeline, model roles clarified as rewriter and governance gate, proactive tool-use instruction scoped to tau2-bench context only | |
-| 2 | `orchestration/handoff.py`, `method.md` | Documented intent classification gap in `route_inbound_message()`; added `classify_reply_intent` design spec to `method.md` | |
+| 1 | `ablations/ablation_results.json`, `method.md` | Cost delta decomposed into prefill (12%) and decode (88%) components; Pareto-optimality claim defended mechanically — SimPO is cheaper because the adapter produces concise outputs, reducing decode cost | |
+| 2 | `orchestration/handoff.py`, `method.md` | Architecture description corrected to three-pattern framework; `classify_reply_intent` design spec added documenting function-calling fix for intent classification gap in `route_inbound_message()` | |
 | 3 | `methodology.md` | 82% capacity_honesty claim bounded to in-distribution template eval; paraphrase robustness check planned for v2; Pareto-optimality argument scoped to template distribution | |
-| 4 | | | |
-| 5 | | | |
+| 4 | `README.md`, audit output | Score reporting updated to mean ± 95% CI across runs; README documents ±0.5 single-run uncertainty and 9-run minimum for stable mean | |
 
 ---
 
